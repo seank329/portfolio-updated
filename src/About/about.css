@@ -1,0 +1,112 @@
+
+section{
+    display: flex;
+    flex-direction: column;
+    height:85vh;
+    justify-content: center;
+    padding-left: 2vw;
+    padding-right:2vw;
+}
+
+
+h2, .about{
+    font-family: 'Cairo', sans-serif;
+}
+
+
+@media only screen and (max-width:350px){
+
+    .About{
+        height:60vh;
+    }
+
+    h2{
+        font-size: 1em;
+    }
+
+    .about {
+        font-size:0.7em;
+        margin-top:1vh;
+    }
+
+    #top{
+        margin-top: 1vh;
+    }
+}
+
+@media only screen and (min-width:351px) and (max-width:640px){
+
+ 
+    .About{
+        height:50vh;
+    }
+
+    .about {
+        font-size: 0.8em;
+        margin-top:1vh;
+    }
+
+    h3{
+        font-size: 0.9em;
+    }
+
+}
+
+@media only screen and(min-width:640px) and (max-width:900px){
+
+
+    .About{
+        height:50vh;
+    }
+
+    h3{
+        border-bottom: 2vh;
+    }
+
+    .about > p{
+        font-size: 1.3em;
+        margin-top:1vh;
+    }
+
+}
+
+@media only screen and (min-width:901px) and (max-width:1421px){
+
+
+    .About{
+        height:50vh;
+    }
+
+    h3{
+        border-bottom: 2vh;
+    }
+
+    p{
+        font-size: 1.2em;
+    }
+
+    #top{
+        margin-top: 5vh;
+    }
+
+}
+
+@media only screen and (min-width:1421px){
+
+    .About{
+        height:60vh;
+    }
+
+    h3{
+        border-bottom: 2vh;
+    }
+
+    p{
+        font-size: 1.5em;
+    }
+
+    #top{
+        margin-top: 5vh;
+    }
+
+}

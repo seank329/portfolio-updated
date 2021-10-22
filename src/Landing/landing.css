@@ -1,0 +1,59 @@
+#intro, #sub{
+    font-family: 'Cairo', sans-serif;
+    font-size: 2em;
+}
+
+@media only screen and (max-width:400px){
+
+    .Landing{
+        padding:2%;
+    }
+
+    #intro{
+        font-size: 1em;
+        margin-bottom: 7vh;
+    }
+
+    #sub{
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:640px){
+
+    .Landing{
+        padding:2%;
+    }
+
+    #intro{
+        font-size: 1.2em;
+        margin-bottom: 7vh;
+    }
+
+    #sub{
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:900px){
+    #intro{
+        font-size: 1.8em;
+        margin-bottom: 7vh;
+    }
+
+    #sub{
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (min-width:901px){
+    #intro{
+        font-size: 1.9em;
+        margin-bottom: 7vh;
+    }
+
+    #sub{
+        font-size: 1.4em;
+    }
+
+}

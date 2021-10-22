@@ -1,0 +1,170 @@
+
+.ProjectContainer{
+    /* width:100%; */
+    height:40vh;
+    margin-right:5vw;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Cairo', sans-serif;
+}
+
+.description{
+    margin-top:2vh;
+}
+
+.project_tech{
+    margin-top:1vh;
+}
+
+.project_linkLive{
+    margin-top: 1vh;;
+}
+
+a{
+    font-size: 1.5em;
+}
+
+@media only screen and (min-width:300px) and (max-width:410px){
+    .ProjectContainer{
+        margin-right: 0;
+        height:70vh;
+        margin-bottom: 10vh;
+    }
+
+    .projectImage{
+        width:83vw;
+    }
+
+    .project{
+        font-size: 0.9em;
+    }
+
+    a{
+        font-size: 1em;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
+
+@media only screen and (min-width:411px) and (max-width:640px){
+
+    .ProjectContainer{
+        margin-right: 0;
+        height:70vh;
+        margin-bottom: 10vh;
+    }
+
+    .projectImage{
+        width:83vw;
+    }
+
+    .project{
+        font-size: 0.9em;
+    }
+
+    a{
+        font-size: 1em;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+
+
+@media only screen and (min-width:641px) and (max-width:800px){
+
+    .ProjectContainer{
+        margin-right: 0;
+        height:70vh;
+        margin-bottom: 10vh;
+    }
+
+    .projectImage{
+        width:83vw;
+    }
+
+    .project{
+        font-size: 0.9em;
+    }
+
+    a{
+        font-size: 1em;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
+
+@media only screen and (min-width:801px) and (max-width:1030px){
+    .ProjectContainer{
+        margin-right: 0;
+        height:70vh;
+        margin-bottom: 10vh;
+     }
+
+    .projectImage{
+        width:83vw;
+    }
+
+    .project{
+        font-size: 0.9em;
+    }
+
+    a{
+        font-size: 1em;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
+
+@media only screen and (min-width:1031px){
+
+    a{
+        font-size: 1em;
+    }
+
+    .projectImage{
+        width:85vw;
+    }
+
+    .description{
+        width:85vw;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .ProjectContainer{
+        width:85vw;
+        margin-right:10vw;
+        margin-left:2vw;
+    }
+
+
+}
