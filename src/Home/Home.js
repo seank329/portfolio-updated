@@ -27,9 +27,9 @@ class Home extends Component {
     renderRoutes(){
         return(
             <section>
-                <Route
+                 <Route
                     exact
-                    path='../Landing'
+                    path='/'
                     component={Landing}
                 />
                 <Route
