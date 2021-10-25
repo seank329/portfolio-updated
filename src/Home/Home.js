@@ -77,9 +77,8 @@ class Home extends Component {
                     </div>       
                 </nav>
                 </header>
-                <section>
+                <section className="routeWindow">
                     {this.renderRoutes()}
-                   
                 </section>
             </main>
         )

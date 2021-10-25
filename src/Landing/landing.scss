@@ -1,7 +1,192 @@
-#intro, #sub{
-    font-family: 'Cairo', sans-serif;
+#intro{
     font-size: 2em;
 }
+
+#intro{
+    position: absolute;
+    top:50%;
+    left:50%;
+    height:38px;
+    width:auto;
+    transform:  translate(-260px, -19px);
+    animation-duration: 1.3s;
+    animation-name: movein;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: block;
+    line-height: 1em; 
+    max-height: 1em;
+}
+
+#introHousing{
+    display: inline-block;
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+img{
+    display:inline-block;
+}
+
+.Landing{
+    position: relative;
+}
+
+.logoDivs{
+    max-width: 368px;
+    display: inline-block !important;
+}
+
+#psLogo{
+    height:200px;
+}
+
+#reactLogo{
+    height:100px;
+    width:100px;
+    position:absolute;
+    left:300px;
+    top:50px;
+    animation-duration: 3s;
+    animation-name: reactSlidein;
+}
+
+#nodeLogo{
+    height:63px;
+    width:225px;
+    position:absolute;
+    left:50px;
+    top:400px;
+    animation-duration: 3s;
+    animation-name: nodeSlidein;
+}
+
+#jsLogo{
+    height:125px;
+    width:110px;
+    position:absolute;
+    left:300px;
+    top:600px;
+    animation-duration: 3s;
+    animation-name: jsSlidein;
+}
+
+#psLogo{
+    height:125px;
+    width:125px;
+    position: absolute;
+    right:300px;
+    top:50px;
+    animation-duration: 3s;
+    animation-name: psSlidein;
+}
+
+#angularLogo{
+    height:auto;
+    width:200px;
+    position: absolute;
+    right:50px;
+    top:400px;
+    animation-duration: 3s;
+    animation-name: angularSlidein;
+}
+
+#cssLogo{
+    height: auto;
+    width: 125px;
+    position: absolute;
+    right:300px;
+    top:600px;
+    animation-duration: 3s;
+    animation-name: cssSlidein;
+}
+
+@keyframes movein {
+    from {
+        opacity: 0;
+    }
+  
+    to {
+        opacity: 1;
+    }
+  }
+
+
+@keyframes reactSlidein {
+    from{
+        width:0px;
+        height:0px;
+    }
+
+    to{
+        width:100px;
+        height:100px;
+    }
+}
+
+@keyframes nodeSlidein {
+    from{
+        width:0px;
+        height:0px;
+    }
+
+    to{
+        width:225px;
+        height:63px;
+    }
+}
+
+@keyframes jsSlidein {
+    from{
+        width:0px;
+        height:0px;
+    }
+
+    to{
+        width:110px;
+        height:125px;
+    }
+}
+
+@keyframes psSlidein {
+    from{
+        width:0px;
+        height:0px;
+    }
+
+    to{
+        width:125px;
+        height:125px;
+    }
+}
+
+@keyframes angularSlidein {
+    from{
+        width:0px;
+        height:0px;
+    }
+
+    to{
+        width:200px;
+        height:55px;
+    }
+}
+
+@keyframes cssSlidein {
+    from{
+        width:0px;
+        height:0px;
+    }
+
+    to{
+        width:125px;
+        height:125px;
+    }
+}
+
+
 
 @media only screen and (max-width:400px){
 
@@ -38,26 +223,16 @@
 }
 
 @media only screen and (min-width:901px){
+
+    .Landing{
+        display: inline-block;
+        height:100vh !important;
+    }
+
     #intro{
         font-family: 'Cinzel', serif;
         font-family: 'Quicksand', sans-serif;
         font-size: 30px;
-        margin-bottom: 7vh;
-        animation-duration: 1.6s;
-        animation-name: slidein;
     }
-
-    @keyframes slidein {
-        from {
-          margin-left: 100%;
-          width: 300%;
-        }
-      
-        to {
-          margin-left: 0%;
-          width: 100%;
-        }
-      }
-
 
 }

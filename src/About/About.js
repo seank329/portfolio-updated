@@ -1,13 +1,13 @@
-import React from 'react'
-import './about.scss'
+import React from 'react';
+import './about.scss';
 
 export default function About(){
 
     return(
         <section className='About'>
-            <header>
+            <div className="nameAbout">
                 <h2>Sean Kamran Cooper</h2>
-            </header>
+            </div>
             <article>
                 <p id='top' className='about'> I've always loved learning about computers and staying on top of the latest trends in technology. I became a Microsoft
                     Certified Professional (MCP) during my first year of college, and maintain an active CompTIA A+ certification. 
