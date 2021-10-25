@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import { Route, NavLink } from 'react-router-dom';
 import Landing from '../Landing/Landing';
-// import background from '../images/background.jpg';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import './home.scss';
-import { withRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
 const styles = {
     Home:{
