@@ -2,35 +2,65 @@
     box-sizing: border-box;
 }
 
-.Home{
-    margin:0;
+body{
     height:100vh;
-    width:100%;
-    background-size: auto;
+    overflow: hidden;
 }
 
-.navLinks{
-    display:flex;
-    width:100%;
-    justify-content: space-around;
-    font-family: 'Vollkorn SC', serif;
+main{
+    height:100vh;
+    display:grid;
+    grid-template-columns: 15% 85%;
 }
+
+header{
+    height:100%;
+    grid-column: 1;
+    position: relative;
+}
+
 
 h3{
-    width:15vw;
-    margin-top:6vh;
-    color: #333333;
+    font-family: 'Cinzel', serif;
+    font-family: 'Quicksand', sans-serif;
+    color:rgba(255,255,255,0.7);
 }
 
 h2{
     margin:0;
 }
 
-.borderedLink{
-    border-left: 1px solid black;
-    border-right:1px solid black;
-    width:22vw;
+.navLinks{
+    height:100%;
+    display:flex;
+
+    flex-direction: column;
+    animation-duration: 3s;
+    animation-name:fadein;
+
+    @keyframes fadein{
+        from{
+            opacity: 0%;
+        }
+        to{
+            opacity:100%;
+        }
+    }
+
+    >div{
+        height:25%;
+        position: relative;
+
+        a{
+            text-decoration: none;
+            position: absolute;
+            top:50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+    }
 }
+
 
 @media only screen and (max-width:400px){
     h3{

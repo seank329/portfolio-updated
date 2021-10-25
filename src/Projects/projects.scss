@@ -2,7 +2,7 @@
 .Projects{
     display:flex;
     height:50vh;
-
+    flex-direction: column;
 }
 
 .projectImage{
@@ -28,7 +28,7 @@
     margin-left: auto;
     margin-right: auto;
     height:76vh;
-    margin-top:3vh;
+    margin-top:2vh;
 }
 
 @media only screen and (min-width:300px) and (max-width:400px){
@@ -98,15 +98,5 @@
 }
 
 @media only screen and (min-width:900px){
-    .ProjectsContainer{
-        width:90vw;
-        height:70vh;
-        margin-left:auto;
-        margin-right:auto;
-        padding:0;
-    }
 
-    .Projects{
-        height:62vh;
-    }
 }

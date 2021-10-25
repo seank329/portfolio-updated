@@ -1,5 +1,5 @@
 import React from 'react'
-import './projects.css'
+import './projects.scss'
 import ProjectContainer from '../Project Container/ProjectContainer'
 import info from '../information'
 

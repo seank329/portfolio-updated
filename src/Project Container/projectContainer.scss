@@ -1,15 +1,18 @@
 
 .ProjectContainer{
     /* width:100%; */
-    height:40vh;
-    margin-right:5vw;
+    // height:40vh;
+    // margin-right:5vw;
     display:flex;
     flex-direction: column;
     font-family: 'Cairo', sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 
 .description{
-    margin-top:2vh;
+    margin-top:1vh;
+    margin-bottom: 3vh;
 }
 
 .project_tech{
@@ -145,14 +148,6 @@ a{
         font-size: 1em;
     }
 
-    .projectImage{
-        width:85vw;
-    }
-
-    .description{
-        width:85vw;
-    }
-
     img{
         max-height: 34vh;
         max-width: 83vw;
@@ -160,11 +155,9 @@ a{
         margin-right: auto;
     }
 
-    .ProjectContainer{
-        width:85vw;
-        margin-right:10vw;
-        margin-left:2vw;
+    .projects{
+        display:flex;
+        justify-content: center;
     }
-
 
 }

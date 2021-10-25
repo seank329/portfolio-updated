@@ -1,5 +1,5 @@
 import React from 'react'
-import './projectContainer.css'
+import './projectContainer.scss'
 
 export default function ProjectContainer(props){
 
