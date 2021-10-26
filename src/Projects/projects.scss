@@ -55,8 +55,6 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   animation:         ca3_fade_move_down 2s ease-in-out infinite;
 }
 
-
-/*animated scroll arrow animation*/
 @-webkit-keyframes ca3_fade_move_down {
   0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
   50%  { opacity: 1;  }
@@ -73,21 +71,14 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   100% { transform:translate(0,20px); opacity: 0; }
 }
 
-
-
-
-
-
 @media only screen and (min-width:725px) and (max-width:900px){
     .ProjectsContainer{
-        // width:85vw;
         justify-content: center;
         margin-top:2vh;
     }
 
     .Projects{
         flex-direction: column;
-        // width:100%;
         height:74vh;
     }
 
