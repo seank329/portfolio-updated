@@ -40,14 +40,14 @@ h2{
     
 
     @keyframes fadein{
-        from{
+        0%{
             visibility:visible;
             opacity: 0%;
         }
         50%{
             opacity: 50%;
         }
-        to{
+        100%{
             opacity:100%;
         }
     }
