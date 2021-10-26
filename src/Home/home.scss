@@ -37,10 +37,14 @@ h2{
     flex-direction: column;
     animation-duration: 3s;
     animation-name:fadein;
+    
 
     @keyframes fadein{
         from{
             opacity: 0%;
+        }
+        50%{
+            opacity: 50%;
         }
         to{
             opacity:100%;
