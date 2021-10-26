@@ -14,11 +14,9 @@
 
 .ProjectsContainer{
     height:83% !important;
-    margin-top: 5%;
+    padding-top: 10%;
     width:80% !important;
 }
-
-
 
 html body [data-ca3_iconfont="ETmodules"]::before {
     font-family: "ETmodules";
@@ -42,7 +40,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   line-height: 60px;
   position: absolute;
   left: 50%;
-  bottom: -60px;
+  bottom: -65px;
   color: #FFF;
   text-align: center;
   font-size: 70px;
@@ -74,7 +72,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 @media only screen and (min-width:725px) and (max-width:900px){
     .ProjectsContainer{
         justify-content: center;
-        margin-top:2vh;
+        padding-top:20%;
     }
 
     .Projects{
@@ -92,7 +90,6 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 @media only screen and (min-width:401px) and (max-width:725px){
     .ProjectsContainer{
         justify-content: center;
-        margin-top:2vh;
         height:90vh !important;
     }
 
@@ -120,7 +117,6 @@ html body [data-ca3_iconfont="ETmodules"]::before {
     .ProjectsContainer{
         width:100%;
         justify-content: center;
-        margin-top:5vh;
     }
 
     .Projects{
