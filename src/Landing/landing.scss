@@ -7,7 +7,7 @@
     transform:  translate(-50%, -50%);
     animation-duration: 1.3s;
     animation-name: movein;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 #introHousing{
@@ -35,28 +35,28 @@ img{
 }
 
 #reactLogo{
-    height:100px;
-    width:100px;
+    height:145px;
+    width:145px;
     position:absolute;
     left:25vw;
-    top:10%;
+    top:15%;
     animation-duration: 3s;
     animation-name: reactSlidein;
 }
 
 #nodeLogo{
-    height:55px;
-    width:196px;
+    height:84px;
+    width:300px;
     position:absolute;
-    left:2vw;
+    left:3vw;
     top:50%;
     animation-duration: 3s;
     animation-name: nodeSlidein;
 }
 
 #jsLogo{
-    height:125px;
-    width:110px;
+    height:145px;
+    width:128px;
     position:absolute;
     left:25vw;
     top:75%;
@@ -65,31 +65,32 @@ img{
 }
 
 #psLogo{
-    height:125px;
-    width:125px;
+    height:170px;
+    width:170px;
     position: absolute;
     right:25vw;
-    top:10%;
+    top:15%;
     animation-duration: 3s;
     animation-name: psSlidein;
 }
 
 #angularLogo{
-    height:auto;
-    width:200px;
+    height:84px;
+    width:300px;
     position: absolute;
-    right:2vw;
+    right:3vw;
     top:50%;
     animation-duration: 3s;
     animation-name: angularSlidein;
 }
 
 #cssLogo{
-    height: auto;
-    width: 125px;
+    height: 150px;
+    width: 150px;
     position: absolute;
     right:25vw;
     top:75%;
+    transform:translateY(-7%);
     animation-duration: 3s;
     animation-name: cssSlidein;
 }
@@ -112,8 +113,8 @@ img{
     }
 
     to{
-        width:100px;
-        height:100px;
+        width:145px;
+        height:145px;
     }
 }
 
@@ -124,21 +125,19 @@ img{
     }
 
     to{
-        width:196px;
-        height:55px;
+        width:300px;
+        height:84px;
     }
 }
 
 @keyframes jsSlidein {
     from{
-        width:0px;
         height:0px;
+        width:0px;
     }
-
     to{
-        width:110px;
-        height:125px;
-   
+        height:145px;
+        width:128px;
     }
 }
 
@@ -149,8 +148,8 @@ img{
     }
 
     to{
-        width:125px;
-        height:125px;
+        width:170px;
+        height:170px;
     }
 }
 
@@ -161,8 +160,8 @@ img{
     }
 
     to{
-        width:200px;
-        height:55px;
+        width:300px;
+        height:84px;
     }
 }
 
@@ -173,14 +172,329 @@ img{
     }
 
     to{
-        width:125px;
-        height:125px;
+        width:150px;
+        height:150px;
     }
 }
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:1800px){
+
     #intro{
-        font-size: 15px;
+        font-size: 2.1em;
+    }
+
+    @keyframes reactSlidein {
+        from{
+            width:0px;
+            height:0px;
+        }
+    
+        to{
+            width:110px;
+            height:110px;
+        }
+    }
+    
+    @keyframes nodeSlidein {
+        from{
+            width:0px;
+            height:0px;
+        }
+    
+        to{
+            width:196px;
+            height:55px;
+        }
+    }
+    
+    @keyframes jsSlidein {
+        from{
+            width:0px;
+            height:0px;
+        }
+    
+        to{
+            width:101px;
+            height:115px;
+       
+        }
+    }
+    
+    @keyframes psSlidein {
+        from{
+            width:0px;
+            height:0px;
+        }
+    
+        to{
+            width:125px;
+            height:125px;
+        }
+    }
+    
+    @keyframes angularSlidein {
+        from{
+            width:0px;
+            height:0px;
+        }
+    
+        to{
+            width:200px;
+            height:55px;
+        }
+    }
+    
+    @keyframes cssSlidein {
+        from{
+            width:0px;
+            height:0px;
+        }
+    
+        to{
+            width:125px;
+            height:125px;
+        }
+    }
+
+    #reactLogo{
+        width:110px;
+        height:110px;
+    }
+
+    #nodeLogo{
+        height:55px;
+        width:196px;
+    }
+
+    #psLogo{
+        height:125px;
+        width:125px;
+    }
+
+    #angularLogo{
+        height:55px;
+        width:200px;
+    }
+
+    #jsLogo{
+        height:115px;
+        width:101px;
+    }
+
+    #cssLogo{
+        height:125px;
+        width:125px;
+    }
+      
+}
+
+@media only screen and (max-width:1300px){
+
+    #intro{
+        font-size:1.5em;
+    }
+
+    @keyframes angularSlidein{
+        from{
+            width:0px;
+            height:0px;
+        }  
+        to{
+            width:140px;
+            height:40px;
+        }
+    }
+
+    @keyframes cssSlidein{
+        from{
+            height:0px;
+            width:0px;
+        }
+        to{
+            height: 92px;
+            width: 92px;
+            transform: translateY(-10%);
+        }
+    }
+
+    @keyframes jsSlidein{
+        from{
+            width:0px;
+            height:0px;
+        }  
+        to{
+            width:80px;
+            height:80px;
+        }
+    }
+
+    @keyframes nodeSlidein{
+        from{
+            width:0px;
+            height:0px;
+        }  
+        to{
+            width:140px;
+            height:40px;
+        }
+    }
+
+    @keyframes psSlidein{
+        from{
+            width:0px;
+            height:0px;
+        }  
+        to{
+            width:110px;
+            height:110px;
+        }
+    }
+
+    @keyframes reactSlidein{
+        from{
+            width:0px;
+            height:0px;
+        }  
+        to{
+            width:90px;
+            height:90px;
+        }
+    }
+
+    #angularLogo, #nodeLogo{
+        height:40px;
+        width:140px;
+    }
+
+    #cssLogo{
+        height:92px;
+        width: 92px;
+        transform: translateY(-10%);
+    }
+
+    #jsLogo{
+        height:80px;
+        width:80px;
+    }
+
+    #reactLogo{
+        height:90px;
+        width:90px;
+    }
+
+    #psLogo{
+        height:110px;
+        width:110px;
+    }
+
+
+}
+
+@media only screen and (max-width:1024px){
+
+    #intro{
+        font-size:1.3em;
+    }
+
+    @keyframes angularSlidein{
+        from{
+            width:0px;
+            height:0px;
+        }  
+        to{
+            width:110px;
+            height:30px;
+        }
+    }
+
+    @keyframes cssSlidein{
+        from{
+            height:0px;
+            width:0px;
+        }
+        to{
+            height: 60px;
+            width: 60px;
+            transform: translateY(-10%);
+        }
+    }
+
+    @keyframes jsSlidein{
+        from{
+            height:0px;
+            width:0px;
+        }
+        to{
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+
+    @keyframes nodeSlidein{
+        from{
+            width:0px;
+            height:0px;
+        }  
+        to{
+            width:110px;
+            height:30px;
+        }
+    }
+
+    @keyframes psSlidein{
+        from{
+            height:0px;
+            width:0px;
+        }
+        to{
+            height: 78px;
+            width: 78px;
+        }
+    }
+
+    @keyframes reactSlidein {
+        from{
+            height:0px;
+            width:0px;
+        }
+        to{
+            height:55px;
+            width:55px;
+        }
+    }
+
+    #angularLogo, #nodeLogo{
+        width:110px;
+        height:30px;
+    }
+
+    #reactLogo{
+        height:55px;
+        width:55px;
+    }
+
+    #psLogo{
+        height:78px;
+        width:78px;
+    }
+
+    #jsLogo{
+        height:50px;
+        width:50px;
+    }
+
+    #cssLogo{
+        height:60px;
+        width: 60px;
+        transform: translateY(-10%);
+    }
+}
+
+@media only screen and (max-width:720px){
+
+    #intro{
+        font-size: 20px;
     }
 
     @keyframes angularSlidein{
@@ -294,5 +608,12 @@ img{
         right:50%;
         transform: translate(50% ,0);
         top:10%;
+    }
+}
+
+@media only screen and (max-width:480px){
+    
+    #intro{
+        font-size: 15px;
     }
 }

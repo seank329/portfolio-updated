@@ -24,6 +24,7 @@ h3{
     font-family: 'Cinzel', serif;
     font-family: 'Quicksand', sans-serif;
     color:rgba(255,255,255,0.7);
+    font-size: 2em;
 }
 
 h2{
@@ -50,6 +51,9 @@ h2{
     >div{
         height:25%;
         position: relative;
+        justify-content: center;
+        margin-left:auto;
+        margin-right: auto;
 
         a{
             text-decoration: none;
@@ -73,62 +77,57 @@ h2{
     }
 }
 
-
-@media only screen and (max-width:400px){
+@media only screeen and (max-width:1800px){
     h3{
-        font-size: 0.7em;
+        font-size:1.5em;
     }
 }
 
 
-@media only screen and (min-width:401px) and (max-width:640px){
-    p{
-        padding:0;
-    }
-
-    h3{
-        font-size: 1em;
-    }
-
-    .navLinks{
-        justify-content: space-around;
-    }
-
-    .borderedLink{
-        border-left: 1px solid black;
-        border-right:1px solid black;
-        width:20vw;
-    }
-}
-
-
-@media only screen and (min-width:641px) and (max-width:900px){
-    .navLinks{
-        justify-content:space-around;
-    }
-
-    .borderedLink{
-        border-left: 1px solid black;
-        border-right:1px solid black;
-        width:20vw;
-    }
-
-    h3{
-        width:20vw;
-    }
-}
 
 @media only screen and (min-width:901px){
-
-    h3{
-        font-size: 1.5em;
-    }
 
     .routeWindow{
         section{
             position: relative;
-            // top:-30px;
             height:100%;
         }
     }
 }
+
+@media only screen and (max-width:1023px){
+
+    h3{
+        font-size:1em;
+    }
+
+    main{
+        grid-template-columns: 22% 78%;
+    }
+
+    .navLinks{
+
+        >div{
+
+            a{
+                top:50%;
+                left:50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:720px){
+
+
+}
+
+@media only screen and (max-width:470px){
+
+    main{
+        grid-template-columns: 30% 70%;
+    }
+}
+
