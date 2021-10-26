@@ -32,11 +32,56 @@ a{
     font-size: 1.5em;
 }
 
-@media only screen and (min-width:300px) and (max-width:410px){
+@media only screen and (min-width:1031px){
+
+    a{
+        font-size: 1em;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    .projects{
+        display:flex;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (min-width:801px) and (max-width:1030px){
     .ProjectContainer{
         margin-right: 0;
-        height:70vh;
-        margin-bottom: 10vh;
+     }
+
+    .projectImage{
+        width:83vw;
+    }
+
+    .project{
+        font-size: 0.9em;
+    }
+
+    a{
+        font-size: 1em;
+    }
+
+    img{
+        max-height: 34vh;
+        max-width: 83vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
+
+@media only screen and (min-width:641px) and (max-width:800px){
+
+    .ProjectContainer{
+        margin-right: 0;
     }
 
     .projectImage{
@@ -64,12 +109,7 @@ a{
 
     .ProjectContainer{
         margin-right: 0;
-        height:70vh;
         margin-bottom: 10vh;
-    }
-
-    .projectImage{
-        width:83vw;
     }
 
     .project{
@@ -82,20 +122,15 @@ a{
 
     img{
         max-height: 34vh;
-        max-width: 83vw;
+        max-width: 100%;
         margin-left:auto;
         margin-right:auto;
     }
 }
 
-
-
-@media only screen and (min-width:641px) and (max-width:800px){
-
+@media only screen and (min-width:300px) and (max-width:410px){
     .ProjectContainer{
         margin-right: 0;
-        height:70vh;
-        margin-bottom: 10vh;
     }
 
     .projectImage{
@@ -119,50 +154,11 @@ a{
 
 }
 
-@media only screen and (min-width:801px) and (max-width:1030px){
-    .ProjectContainer{
-        margin-right: 0;
-        height:70vh;
-        margin-bottom: 10vh;
-     }
 
-    .projectImage{
-        width:83vw;
-    }
 
-    .project{
-        font-size: 0.9em;
-    }
 
-    a{
-        font-size: 1em;
-    }
 
-    img{
-        max-height: 34vh;
-        max-width: 83vw;
-        margin-left:auto;
-        margin-right:auto;
-    }
 
-}
 
-@media only screen and (min-width:1031px){
 
-    a{
-        font-size: 1em;
-    }
 
-    img{
-        max-height: 34vh;
-        max-width: 83vw;
-        margin-left:auto;
-        margin-right: auto;
-    }
-
-    .projects{
-        display:flex;
-        justify-content: center;
-    }
-
-}

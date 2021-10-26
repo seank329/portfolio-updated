@@ -1,19 +1,21 @@
 
 
 .Contact{
-    margin-top: 0;
     font-family: 'Cairo', sans-serif;
+    position: relative;
+    top:50%;
+    transform: translateY(-155px);
 }
 
 .area{
-    border:1px solid black;
+    border:1px solid #B7B8BB;
     margin-left:20vw;
     margin-right:20vw;
     margin-top:2vh;
 }
 
 a{
-    color: #333333;
+    color: #B7B8BB;
 }
 
 
