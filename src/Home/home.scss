@@ -41,6 +41,7 @@ h2{
 
     @keyframes fadein{
         from{
+            visibility: hidden;
             opacity: 0%;
         }
         50%{
